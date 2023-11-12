@@ -12,6 +12,7 @@ export const NavStyles = styled.nav`
     display: flex;
     align-items: center;
     width: 12rem;
+    height: 3.8rem;
     padding: 0;
     background: rgba(144, 144, 144, 0.5);
     border-radius: 24px;
@@ -20,10 +21,13 @@ export const NavStyles = styled.nav`
   }
 
   li {
+    display: flex;
+    align-items: center;
     list-style: none;
     padding: 1rem;
     margin: 0;
     border-radius: 24px;
+    height: 3.8rem;
 
     img {
       width: 2rem;
