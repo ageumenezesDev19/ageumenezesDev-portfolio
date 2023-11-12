@@ -1,6 +1,6 @@
 import { SoftSkillsSection } from "./styles";
 
-export function MySkills() {
+export function MySoftSkills() {
   return(
     <SoftSkillsSection>
       <h2>My Soft Skills</h2>

@@ -1,3 +1,9 @@
+import defaultProjectImg from '../../assets/projects-images/project_code-only.jpg';
+import pixelsArtImg from '../../assets/projects-images/porject-3_pixels-art.png';
+import toDoImg from '../../assets/projects-images/project-4_to-do-list.png';
+import toDo2Img from '../../assets/projects-images/my-tasks-to-do-2.png';
+import TrybewartsImg from '../../assets/projects-images/porject-5_trybewarts.png';
+import solarSystemImg from '../../assets/projects-images/project-solar-system.png';
 import { ProjectsSection } from './styles';
 
 export function MyProjects() {
@@ -7,7 +13,7 @@ export function MyProjects() {
       <div>
         <h3>Playground Functions</h3>
           <img
-            src=""
+            src={defaultProjectImg}
             alt="Imagem do projeto 2: Playground Functions"
           />
           <a
@@ -19,7 +25,7 @@ export function MyProjects() {
       <div>
         <h3>Pixels Art</h3>
         <img
-          src=""
+          src={pixelsArtImg}
           alt="Imagem do projeto 3: Pixels Art"
         />
         <div>
@@ -44,7 +50,7 @@ export function MyProjects() {
       <div>
         <h3>To-Do List</h3>
         <img
-          src=""
+          src={toDoImg}
           alt="Imagem do projeto 4: To-Do List"
         />
         <div>
@@ -67,7 +73,7 @@ export function MyProjects() {
       <div>
         <h3>Trybewarts 1</h3>
         <img
-          src=""
+          src={TrybewartsImg}
           alt="Imagem do projeto 5: Trybewarts 1"
         />
         <div>
@@ -90,7 +96,7 @@ export function MyProjects() {
       <div>
         <h3>Trybewarts 2</h3>
         <img
-          src=""
+          src={TrybewartsImg}
           alt="Imagem do projeto 5: Trybewarts 2"
         />
         <div>
@@ -113,7 +119,7 @@ export function MyProjects() {
       <div>
         <h3>Unit Tests</h3>
         <img
-          src=""
+          src={defaultProjectImg}
           alt="Imagem do projeto 6: Unit Tests"
         />
         <a
@@ -127,7 +133,7 @@ export function MyProjects() {
       <div>
         <h3>Zoo Functions</h3>
         <img
-          src=""
+          src={defaultProjectImg}
           alt="Imagem do projeto 7: Zoo Functions"
         />
         <a
@@ -141,7 +147,7 @@ export function MyProjects() {
       <div>
         <h3>Solar System</h3>
         <img
-          src=""
+          src={solarSystemImg}
           alt="Imagem do projeto 7: Zoo Functions"
         />
         <div>
@@ -164,7 +170,7 @@ export function MyProjects() {
       <div>
         <h3>To-Do 2</h3>
         <img
-          src=""
+          src={toDo2Img}
           alt="Imagem do projeto 8: to-do-2.0"
         />
         <div>
