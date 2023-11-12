@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainImgStyles = styled.img`
+export const MainImgStyles = styled.div`
   @keyframes changes-shadow-color {
     0%  {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
     20% {box-shadow: 0px 0px 55px #00A1E6; border: 2px solid #00A1E6;}
@@ -10,14 +10,16 @@ export const MainImgStyles = styled.img`
     100% {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
   }
 
-  margin: none;
-  width: 320px;
-  border-radius: 30px;
-  border: 2px solid rgb(82, 177, 255);
-  animation: changes-shadow-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
-  transition: animation 1s;
+  img {
+    margin: 0 6rem;
+    width: 320px;
+    border-radius: 30px;
+    border: 2px solid rgb(82, 177, 255);
+    animation: changes-shadow-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
+    transition: animation 1s;
 
-  &:hover {
+    &:hover {
     animation: changes-shadow-color 3s cubic-bezier(.17,.67,.83,.67) infinite;
+    }
   }
 `

@@ -6,7 +6,9 @@ export const SectionsStyle = styled.div`
   justify-content: center;
 
   section {
+    margin: 0 0 220px;
     display: flex;
-    width: 50rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 `
