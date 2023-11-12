@@ -11,7 +11,6 @@ export function App() {
       <GlobalStyle />
       <Links link='home-link'/>
       <Header />
-      <Links link='about-me-link'/>
       <Sections />
       <NavBar/>
       <Links link='my-projects-link'/>

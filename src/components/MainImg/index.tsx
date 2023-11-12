@@ -3,9 +3,8 @@ import MyMainImg from '../../assets/profile_pictures/Foto do Perfil 4.3.jpg'
 
 export function MainImg() {
   return(
-    <MainImgStyles
-      src={MyMainImg}
-      alt="Minha imagem principal">
+    <MainImgStyles>
+      <img src={MyMainImg} alt="Minha imagem principal" />
     </MainImgStyles>
   )
 }
