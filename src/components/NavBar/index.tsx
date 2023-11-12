@@ -6,7 +6,7 @@ import projectsImg from "../../assets/navBar/developer_folder_20798.png";
 export function NavBar() {
   return(
     <NavStyles>
-      <ul id="nav-list">
+      <ul>
         <a href="#home-link">
           <li>
             <img src={homeImg} alt="Ícone Home" />

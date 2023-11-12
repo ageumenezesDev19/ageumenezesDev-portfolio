@@ -39,4 +39,13 @@ export const GlobalStyle = createGlobalStyle`
     color: var(--white-text-color);
     background: var(--black-background);
   }
+
+  @keyframes changes-text-color {
+  0%  {color: #A100C7;}
+  20% {color: #00A1E6;}
+  40% {color: #9dff00;}
+  60% {color: #E6B02E;}
+  80% {color: #DC0063;}
+  100% {color: #A100C7;}
+  }
 `

@@ -3,14 +3,18 @@ import { Sections } from "./components/Sections";
 import { NavBar } from "./components/NavBar";
 import { MyProjects } from "./components/MyProjects";
 import { GlobalStyle } from "./styles/global";
+import { Links } from "./components/Links";
 
 export function App() {
   return (
     <>
       <GlobalStyle />
+      <Links link='home-link'/>
       <Header />
-      <NavBar/>
+      <Links link='about-me-link'/>
       <Sections />
+      <NavBar/>
+      <Links link='my-projects-link'/>
       <MyProjects />
     </>
   )
