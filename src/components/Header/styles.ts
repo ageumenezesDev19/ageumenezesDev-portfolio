@@ -5,7 +5,7 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1.5rem 0 1.5rem;
+  margin: 0.5rem 0 1.5rem;
 
   h1 {
     font-family: omnium,sans-serif;
