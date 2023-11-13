@@ -5,6 +5,7 @@ import { MySoftSkills } from "../MySoftSkills";
 import { MyHardSkills } from "../MyHardSkills";
 import { SectionsStyle } from "./styles";
 import { Links } from "../Links";
+import { Experience } from "../Experience";
 
 export function Sections() {
   return(
@@ -15,9 +16,14 @@ export function Sections() {
       </section>
       <section>
         <Links link='about-me-link'/>
-        <MyLinks />
-        <MySoftSkills />
-        <MyHardSkills />
+        <section>
+          <MyHardSkills />
+        </section>
+        <div>
+          <MySoftSkills />
+          <MyLinks />
+          <Experience />
+        </div>
       </section>
     </SectionsStyle>
   )
