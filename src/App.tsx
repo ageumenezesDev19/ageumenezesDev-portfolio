@@ -15,6 +15,10 @@ export function App() {
       <NavBar/>
       <Links link='my-projects-link'/>
       <MyProjects />
+
+      <footer>
+        <p>Made by Ageu Menezes Costa</p>
+      </footer>
     </>
   )
 }
