@@ -11,7 +11,7 @@ export const MainImgStyles = styled.div`
   }
 
   img {
-    margin: 0 6rem;
+    margin: 5rem 5rem 4rem;
     width: 320px;
     border-radius: 30px;
     border: 2px solid rgb(82, 177, 255);
