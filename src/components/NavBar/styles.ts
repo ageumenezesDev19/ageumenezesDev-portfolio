@@ -5,7 +5,7 @@ export const NavStyles = styled.nav`
   justify-content: center;
   position: fixed;
   width: 100%;
-  bottom: 2rem;
+  bottom: 2.5rem;
   z-index: 2;
 
   ul {

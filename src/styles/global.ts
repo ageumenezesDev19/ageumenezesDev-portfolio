@@ -48,4 +48,16 @@ export const GlobalStyle = createGlobalStyle`
   80% {color: #DC0063;}
   100% {color: #A100C7;}
   }
+
+  footer {
+    margin: 60px 0 10px;
+    display: flex;
+    justify-content: center;
+
+    p {
+      font-family: decoy, serif;
+      font-style: normal;
+      font-weight: 300;
+    }
+  }
 `
