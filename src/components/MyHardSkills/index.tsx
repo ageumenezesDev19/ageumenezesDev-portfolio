@@ -4,6 +4,9 @@ export function MyHardSkills() {
   return(
     <HardSkillsStyle>
       <div>
+        <div>
+          <h2>My Hard Skills</h2>
+        </div>
         <h4>Web Developer</h4>
           <ul>
             <li><p className='devicon-html5-plain-wordmark colored'>HTML5 | Advanced</p></li>
@@ -30,7 +33,7 @@ export function MyHardSkills() {
           <h4>Others</h4>
           <ul>
             <li><i><p className='devicon-apple-original colored'>MacOS</p></i></li>
-            <li><p>🇺🇸 English: Advanced</p></li>
+            <li><p style={{color: 'black'}}>🇺🇸 English: Advanced</p></li>
           </ul>
         </div>
     </HardSkillsStyle>
