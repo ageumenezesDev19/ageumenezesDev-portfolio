@@ -11,6 +11,20 @@ export const SectionsStyle = styled.div`
     justify-content: center;
   }
 
+  section:nth-child(2) {
+    margin: 0 0 50px;
+
+    div {
+      section {
+        margin: 0 0 50px;
+      }
+
+      section:nth-child(2) {
+        margin: 0 0 70px;
+      }
+    }
+  }
+
   div {
     display: flex;
     flex-direction: column;
