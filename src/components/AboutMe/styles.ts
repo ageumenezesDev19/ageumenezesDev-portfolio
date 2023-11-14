@@ -22,4 +22,16 @@ export const AboutMeSection = styled.div`
     font-weight: 400;
     font-style: normal;
   }
+
+  @media only screen and (max-width: 743px) {
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 505px) {
+    width: 83%;
+
+    p {
+      font-size: 1rem;
+    }
+  }
 `
