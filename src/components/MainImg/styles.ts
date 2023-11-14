@@ -38,7 +38,7 @@ export const MainImgStyles = styled.div`
 
   @media only screen and (max-width: 523px) {
     img {
-      width: 190px;
+      width: 220px;
     }
   }
 
