@@ -22,4 +22,10 @@ export const MainImgStyles = styled.div`
     animation: changes-shadow-color 3s cubic-bezier(.17,.67,.83,.67) infinite;
     }
   }
+
+  @media only screen and (max-width: 1163px) {
+    img {
+      margin: 5rem 5rem 15rem;
+    }
+  }
 `

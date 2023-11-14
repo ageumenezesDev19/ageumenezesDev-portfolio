@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ExperienceSection = styled.section`
+
   div {
     display: flex;
     justify-content: center;
