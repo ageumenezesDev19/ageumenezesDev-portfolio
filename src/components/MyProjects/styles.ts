@@ -123,4 +123,10 @@ export const ProjectsSection = styled.section`
       }
     }
   }
+
+  @media only screen and (max-width: 523px) {
+    div {
+      margin: 20px 67px 20px;
+    }
+  }
 `
