@@ -37,4 +37,16 @@ export const SoftSkillsSection = styled.section`
     }
   }
 
+  @media only screen and (max-width: 647px) {
+    h2 {
+      font-size: 20px;
+    }
+
+    ul {
+      li {
+        font-size: 20px;
+      }
+    }
+  }
+
 `

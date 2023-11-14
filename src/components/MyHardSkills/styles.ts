@@ -54,4 +54,21 @@ export const HardSkillsStyle = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 647px) {
+    div {
+      h2 {
+        font-size: 30px;
+      }
+
+      h4 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 3rem;
+      }
+    }
+  }
+
 `

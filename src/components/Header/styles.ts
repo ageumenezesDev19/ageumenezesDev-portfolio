@@ -23,4 +23,14 @@ export const Container = styled.header`
     font-style: italic;
     animation: changes-text-color 10s cubic-bezier(.17,.67,.83,.67) infinite;
   }
+
+  @media only screen and (max-width: 647px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 85%;
+    }
+  }
 `
