@@ -5,7 +5,7 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0.5rem 0 1.5rem;
+  margin: 1rem 0 1.5rem;
 
   h1 {
     font-family: omnium,sans-serif;
@@ -25,6 +25,8 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 647px) {
+    margin: 3.5rem 0 1.5rem;
+
     h1 {
       font-size: 2rem;
     }
