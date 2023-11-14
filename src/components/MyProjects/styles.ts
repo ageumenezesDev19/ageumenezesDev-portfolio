@@ -97,4 +97,30 @@ export const ProjectsSection = styled.section`
       justify-content: center;
     }
   }
+
+  @media only screen and (max-width: 647px) {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      margin: 20px 120px 20px;
+      transition-delay: 250ms;
+      
+      img {
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+      }
+
+      button {
+        font-size: 20px;
+      }
+
+      button[name="button2"] {
+        font-size: 20px;
+        margin-left: 5px;
+      }
+    }
+  }
 `

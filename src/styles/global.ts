@@ -31,6 +31,10 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 720px) {
       font-size: 87.5%; // 14px
     }
+
+    @media only screen and (max-width: 647px) {
+      font-size: 77.5%;
+    }
   }
 
 /* Documentation link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/scroll-behavior */

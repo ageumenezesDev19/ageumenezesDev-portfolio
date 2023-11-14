@@ -28,4 +28,17 @@ export const MainImgStyles = styled.div`
       margin: 5rem 5rem 15rem;
     }
   }
+
+  @media only screen and (max-width: 647px) {
+    img {
+      width: 260px;
+    }
+  }
+
+  @media only screen and (max-width: 523px) {
+    img {
+      width: 230px;
+    }
+  }
+
 `
