@@ -9,7 +9,6 @@ export function MySoftSkills() {
         <li>Communication;</li>
         <li>Teamwork;</li>
         <li>Emotional intelligence;</li>
-        <li>Financial Intelligence;</li>
         <li>Creativity;</li>
         <li>Adaptability.</li>
       </ul>
