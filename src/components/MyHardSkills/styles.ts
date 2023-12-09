@@ -51,6 +51,10 @@ export const HardSkillsStyle = styled.div`
         list-style: none;
         font-size: 50px;
         margin: 20px;
+
+        p {
+          margin: 0 0.5rem;
+        }
       }
     }
   }
