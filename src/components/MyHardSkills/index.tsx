@@ -9,14 +9,14 @@ export function MyHardSkills() {
         </div>
         <h4>Web Developer</h4>
           <ul>
-            <li><p className='devicon-html5-plain-wordmark colored'>HTML5 | Advanced</p></li>
+            <li><p className='devicon-html5-plain-wordmark colored'>HTML5 | Intermediate</p></li>
             <li><p className='devicon-css3-plain-wordmark colored'>CSS3 | Intermediate</p></li>
             <li><p className='devicon-javascript-plain colored'> JavaScript | Intermediate</p></li>
-            <li><p className='devicon-react-original-wordmark colored'>Basic</p></li>
-            <li><p className='devicon-git-plain-wordmark colored'>Basic</p></li>
+            <li><p className='devicon-react-original-wordmark colored'>Intermediate</p></li>
+            <li><p className='devicon-git-plain-wordmark colored'>Intermediate</p></li>
             <li><p className='devicon-github-original-wordmark colored'> Intermediate</p></li>
             <li><p className='devicon-vscode-plain colored'> VS Code | Intermediate</p></li>
-            <li><p className='devicon-bash-plain colored'> Bash | Basic</p></li>
+            <li><p className='devicon-bash-plain colored'> Bash | Intermediate</p></li>
             <li><p className='devicon-jest-plain colored'> Jest | Basic</p></li>
           </ul>
             </div>
