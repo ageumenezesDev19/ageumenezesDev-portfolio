@@ -7,7 +7,11 @@ import { SectionsStyle } from "./styles";
 import { Links } from "../Links";
 import { Experience } from "../Experience";
 
-export function Sections() {
+interface SectionsProps {
+  projectsCount: number;
+}
+
+export function Sections({projectsCount}: SectionsProps) {
   return(
     <SectionsStyle>
       <section>
@@ -22,7 +26,7 @@ export function Sections() {
         <div>
           <MySoftSkills />
           <MyLinks />
-          <Experience />
+          <Experience projectsCount={projectsCount} />
         </div>
       </section>
     </SectionsStyle>
