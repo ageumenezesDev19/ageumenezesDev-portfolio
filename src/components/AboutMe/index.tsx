@@ -10,8 +10,8 @@ export function AboutMe() {
       <p>Brazilian, I'm 21 years old and I live in the state of Ceará. I like to watch science fiction,
         animation and adventure movies. I Also like to appreciate nature, enjoy international and electronic music.</p><br/>
 
-      <p>I chose to be a Software Engineer because it is one of the great pillars of the tech world that im so fond of and I identified with it.
-        Hence, I dedicate myself developing my hard skills, soft skills and projects to keep up with the job market</p>
+      <p>I chose to be a Software Engineer because it is one of the great pillars of the tech world that im so fond of, and I identified with it.
+        Hence, I dedicate myself developing my hard skills, soft skills and projects to keep up with the job market.</p>
     </AboutMeSection>
   )
 }
