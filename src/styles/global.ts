@@ -40,10 +40,9 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-  /* body {
-    background: #353535;
-    color: white;
-  } */
+  body {
+    background: #F0F0F0;
+  }
 
 /* Documentation link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/scroll-behavior */
 
