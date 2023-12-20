@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const MainImgStyles = styled.div`
+
   @keyframes changes-shadow-color {
     0%  {box-shadow: 0px 0px 55px #A100C7; border: 2px solid #A100C7;}
     20% {box-shadow: 0px 0px 55px #00A1E6; border: 2px solid #00A1E6;}
