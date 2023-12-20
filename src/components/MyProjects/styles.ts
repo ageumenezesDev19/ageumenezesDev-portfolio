@@ -47,6 +47,7 @@ export const ProjectsSection = styled.section`
       width: 400px;
       height: 250px;
       border-radius: 20px;
+      object-fit: cover;
     }
 
     button {
