@@ -11,7 +11,7 @@ export const MainImgStyles = styled.div`
   }
 
   img {
-    margin: 5rem 5rem 4rem;
+    margin: 5rem 5rem 1rem;
     width: 320px;
     border-radius: 30px;
     border: 2px solid rgb(82, 177, 255);
@@ -39,6 +39,7 @@ export const MainImgStyles = styled.div`
   @media only screen and (max-width: 523px) {
     img {
       width: 220px;
+      margin: 5rem 5rem 4rem;
     }
   }
 

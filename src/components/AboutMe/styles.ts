@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutMeSection = styled.div`
   margin: 1rem;
-  width: 56%;
+  width: 50%;
 
   h2 {
     font-size: 2rem;
@@ -16,7 +16,7 @@ export const AboutMeSection = styled.div`
   p {
     color: white;
     text-align: center;
-    font-size: 1.55rem;
+    font-size: 1.4rem;
     margin: 0 2rem;
     font-family: rubrik-new,sans-serif;
     font-weight: 400;
@@ -33,5 +33,25 @@ export const AboutMeSection = styled.div`
     p {
       font-size: 1.6rem;
     }
+  }
+
+  .trybeLink {
+    color: var(--box-shadow);
+    text-decoration: none;
+  }
+
+  .rocketLink {
+    color: var(--background-3);
+    text-decoration: none;
+  }
+
+  .catalineLink {
+    color: var(--background-5);
+    text-decoration: none;
+  }
+
+  .udemyLink {
+    color: #a434f3;
+    text-decoration: none;
   }
 `
