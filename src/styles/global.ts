@@ -4,7 +4,8 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --black-background: #000000;
     --white-background: #FFFFFF;
-    --background-3: #9718FF;
+    --background-200: #a434f3;
+    --background-300: #9718FF;
     --background-4: #6392E9;
     --background-5: #305AFF;
     --background-6: #B0EB6E;
