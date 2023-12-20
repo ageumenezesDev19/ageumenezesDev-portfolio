@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const ProjectsSection = styled.section`
   display: flex;
-  margin-top: 30px;
+  padding-top: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 4.5rem;
+  padding-bottom: 4.5rem;
+
+  background: var(--background-7);
 
   h2 {
     font-size: 35px;
@@ -135,6 +137,10 @@ export const ProjectsSubtitle = styled.div`
   flex-direction: column;
   align-items: center;
 
+  color: white;
+
+  background: var(--background-7);
+
   h2 {
     font-size: 3rem;
     font-family: co-headline,sans-serif;
@@ -142,4 +148,3 @@ export const ProjectsSubtitle = styled.div`
     font-style: normal;
   }
 `
-

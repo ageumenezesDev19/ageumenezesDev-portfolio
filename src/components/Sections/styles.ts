@@ -4,6 +4,10 @@ export const SectionsStyle = styled.div`
   display: flex;
   flex-direction: column;
 
+  .background-color-2 {
+    background:  var(--background-6);
+  }
+
   section {
     margin: 0 0 120px;
     display: flex;
@@ -12,7 +16,8 @@ export const SectionsStyle = styled.div`
   }
 
   section:nth-child(2) {
-    margin: 0 0 50px;
+    margin: 0;
+    padding: 0 0 40px;
 
     div {
       section {

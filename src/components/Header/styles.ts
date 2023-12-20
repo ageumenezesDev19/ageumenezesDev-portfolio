@@ -12,7 +12,6 @@ export const Container = styled.header`
     font-weight: 600;
     font-style: normal;
     font-size: 3rem;
-    color: white;
   }
 
   h4 {

@@ -8,15 +8,17 @@ export const GlobalStyle = createGlobalStyle`
     --background-300: #9718FF;
     --background-4: #6392E9;
     --background-5: #305AFF;
-    --background-6: #B0EB6E;
+    --background-6: #284B63;
+    --background-7: #003354;
+    --black-text-color: #eeeee;
     --white-text-color: #FFFFFF;
     --blue-text-color: #00F7FF;
 
     --box-shadow: #00FF55;
 
-    --nav: #909090;
+    --background-400: #909090;
   }
-
+  
   * {
     margin: 0;
     padding: 0;
@@ -38,12 +40,12 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-/* Documentation link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/scroll-behavior */
+  /* body {
+    background: #353535;
+    color: white;
+  } */
 
-  body {
-    color: var(--white-text-color);
-    background: var(--black-background);
-  }
+/* Documentation link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/scroll-behavior */
 
   @keyframes changes-text-color {
   0%  {color: #A100C7;}
@@ -55,9 +57,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   footer {
-    margin: 60px 0 10px;
+    padding: 60px 0 10px;
     display: flex;
     justify-content: center;
+    background: var(--background-7);
+    color: white;
 
     p {
       font-family: decoy, serif;
