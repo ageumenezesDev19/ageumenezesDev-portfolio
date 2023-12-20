@@ -4,6 +4,10 @@ export const AboutMeSection = styled.div`
   margin: 1rem;
   width: 50%;
 
+  @media only screen and (min-width: 1420px) {
+    width: 55rem;
+  }
+  
   h2 {
     font-size: 2rem;
     color: white;
@@ -41,7 +45,7 @@ export const AboutMeSection = styled.div`
   }
 
   .rocketLink {
-    color: var(--background-3);
+    color: var(--background-300);
     text-decoration: none;
   }
 
@@ -51,7 +55,7 @@ export const AboutMeSection = styled.div`
   }
 
   .udemyLink {
-    color: #a434f3;
+    color: var(--background-300);
     text-decoration: none;
   }
 `
