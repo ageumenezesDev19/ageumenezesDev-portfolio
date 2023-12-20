@@ -4,7 +4,7 @@ export const AboutMeSection = styled.div`
   margin: 1rem;
   width: 50%;
 
-  @media only screen and (min-width: 1420px) {
+  @media only screen and (min-width: 1520px) {
     width: 55rem;
   }
   
