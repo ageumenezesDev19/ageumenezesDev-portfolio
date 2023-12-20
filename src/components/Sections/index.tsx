@@ -18,7 +18,7 @@ export function Sections({projectsCount}: SectionsProps) {
         <MainImg />
         <AboutMe />
       </section>
-      <section>
+      <section className='background-color-2'>
         <Links link='about-me-link'/>
         <section>
           <MyHardSkills />

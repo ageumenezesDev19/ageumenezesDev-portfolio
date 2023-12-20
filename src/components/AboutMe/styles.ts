@@ -10,7 +10,6 @@ export const AboutMeSection = styled.div`
   
   h2 {
     font-size: 2rem;
-    color: white;
     font-family: co-headline,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -18,7 +17,6 @@ export const AboutMeSection = styled.div`
   }
 
   p {
-    color: white;
     text-align: center;
     font-size: 1.4rem;
     margin: 0 2rem;
