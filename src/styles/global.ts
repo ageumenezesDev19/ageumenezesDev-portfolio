@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     --white-text-color: #FFFFFF;
     --blue-text-color: #00F7FF;
 
-    --box-shadow: #00FF55;
+    --box-shadow: #38c958;
 
     --background-400: #909090;
   }
