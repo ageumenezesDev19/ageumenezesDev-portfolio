@@ -13,7 +13,7 @@ export function AboutMe() {
           className="trybeLink"
         >
           <b>Trybe</b>
-        </a>, a distinguished Computer Science school, dedicating 7 months to refining my skills.
+        </a>, a distinguished Computer Science school, dedicating 8 months to refining my skills.
         With the knowledge gained, I launched my career as a Software Engineer, crafting not only
         this portfolio but also various other projects. My learning journey extends to platforms
         such as{' '}
