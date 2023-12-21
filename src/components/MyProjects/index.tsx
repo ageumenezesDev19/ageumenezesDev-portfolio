@@ -3,7 +3,7 @@ import solarSystemImg from '../../assets/projects-images/project-solar-system.pn
 import pixelsArtImg from '../../assets/projects-images/porject-3_pixels-art.png';
 import trybeWarts2Img from '../../assets/projects-images/porject-5_trybewarts.png';
 import standardImg from '../../assets/projects-images/project_code-only.jpg';
-import myPortfolio from '../../assets/projects-images/my-portifolio.png';
+import myPortfolio from '../../assets/projects-images/my-portfolio.png';
 import igniteFeedImg from '../../assets/projects-images/ignite-feed.png';
 
 import { ProjectsSection, ProjectsSubtitle } from './styles';
