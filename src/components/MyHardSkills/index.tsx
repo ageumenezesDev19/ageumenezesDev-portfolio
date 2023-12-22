@@ -13,7 +13,7 @@ export function MyHardSkills() {
           <li><p className='devicon-css3-plain-wordmark colored'>CSS3 | Advanced</p></li>
           <li><p className='devicon-javascript-plain colored'> JavaScript | Advanced</p></li>
           <li><p className='devicon-react-original-wordmark colored'>Advanced</p></li>
-          <li><p className='devicon-nextjs-plain-wordmark colored'> Intermediate</p></li>
+          <li><p className='devicon-nextjs-plain-wordmark colored'>Intermediate</p></li>
           <li><p className='devicon-git-plain-wordmark colored'>Intermediate</p></li>
           <li><p className='devicon-github-original-wordmark colored'> Intermediate</p></li>
           <li><p className='devicon-vscode-plain colored'> VS Code | Intermediate</p></li>
