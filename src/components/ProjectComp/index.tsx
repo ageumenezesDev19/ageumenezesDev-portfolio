@@ -5,7 +5,12 @@ interface ProjectProps {
   demoLink?: string;
 }
 
-export function ProjectComp({projectName, projectImg, gitRepository, demoLink}: ProjectProps) {
+export function ProjectComp({
+  projectName,
+  projectImg,
+  gitRepository,
+  demoLink
+}: ProjectProps) {
   return(
     <>
       <div>
