@@ -30,7 +30,15 @@ function numberOfProjects(projects: ProjectsDataProps[]) {
       <Sections projectsCount={projectsCount} />
       <NavBar/>
       <Links link='my-projects-link'/>
-      <MyProjects numberOfProjects={numberOfProjects}/>
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        alignItems: 'center',
+        background: 'var(--background-7)'
+      }}>
+        <MyProjects numberOfProjects={numberOfProjects}/>
+      </div>
 
       <footer>
         <p>Made by Ageu Menezes Costa</p>
