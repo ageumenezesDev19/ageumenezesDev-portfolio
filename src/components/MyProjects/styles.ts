@@ -6,6 +6,7 @@ export const ProjectsSection = styled.section`
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 4.5rem;
+  max-width: 140rem;
 
   background: var(--background-7);
 
