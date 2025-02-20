@@ -11,7 +11,7 @@ export const HardSkillsStyle = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 6rem;
-  margin-right: 12rem; /* Apenas para telas grandes */
+  margin-right: 12rem;
 
   div {
     display: flex;
@@ -69,7 +69,6 @@ export const HardSkillsStyle = styled.div`
     margin-bottom: 3.5rem;
   }
 
-  /* Para telas até 1024px (tablets em landscape), reduzimos a margem lateral */
   @media only screen and (max-width: 1550px) {
     margin-right: 3rem;
     div {
@@ -86,10 +85,9 @@ export const HardSkillsStyle = styled.div`
     margin-right: 0;
   }
 
-  /* Para telas até 768px (tablets em portrait) e menores, removemos o margin-right */
   @media only screen and (max-width: 768px) {
     flex-direction: column;
-    margin: 2rem auto; /* Margem centralizada */
+    margin: 2rem auto;
     div {
       margin: 1rem auto;
       h2 {
@@ -101,7 +99,6 @@ export const HardSkillsStyle = styled.div`
     }
   }
 
-  /* Para telas até 523px (celulares) */
   @media only screen and (max-width: 523px) {
     div {
       h2 {

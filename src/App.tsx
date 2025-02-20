@@ -7,7 +7,7 @@ import { Sections } from "./components/Sections"
 import { NavBar } from "./components/NavBar"
 import { MyProjects } from "./components/MyProjects"
 import { Links } from "./components/Links"
-import { ThemeToggle } from "./components/ThemeToggle"  // importação do toggle
+import { ThemeToggle } from "./components/ThemeToggle"
 
 interface ProjectsDataProps {
   projectName: string;
