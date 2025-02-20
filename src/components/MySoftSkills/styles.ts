@@ -5,15 +5,16 @@ export const SoftSkillsSection = styled.section`
   padding-top: 10px;
   flex-direction: column;
   margin: 50px 0 50px;
-  background: rgb(187, 38, 100);
-  box-shadow: 0px 0px 30px rgb(221, 45, 118);
+  background: ${({ theme }) => theme.softSkillsContainerBackground};
+  transition: background 0.3s ease;
+  box-shadow: ${({ theme }) => theme.softSkillsBoxShadow};
   border-radius: 30px;
 
   h2 {
     font-size: 35px;
     text-align: center;
     color: white;
-    font-family: co-headline,sans-serif;
+    font-family: co-headline, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -31,7 +32,7 @@ export const SoftSkillsSection = styled.section`
       color: white;
       list-style: none;
       font-size: 30px;
-      font-family: rubrik-new,sans-serif;
+      font-family: rubrik-new, sans-serif;
       font-weight: 400;
       font-style: normal;
     }
@@ -48,5 +49,4 @@ export const SoftSkillsSection = styled.section`
       }
     }
   }
-
-`
+`;

@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     --box-shadow: #38c958;
 
     --background-400: #909090;
+    --transition-speed: 0.3s;
   }
   
   * {
@@ -41,7 +42,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #F0F0F0;
+    background: ${({ theme }) => theme.background};
+    color: ${({ theme }) => theme.textColor};
+    transition: background var(--transition-speed) ease, color var(--transition-speed) ease;
+    font-family: 'Poppins', sans-serif;
   }
 
 /* Documentation link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/scroll-behavior */
@@ -59,8 +63,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 60px 0 10px;
     display: flex;
     justify-content: center;
-    background: var(--background-7);
-    color: white;
+    background: ${({ theme }) => theme.primaryColor};
+    color: ${({ theme }) => theme.textColor};
 
     p {
       font-family: decoy, serif;
