@@ -11,7 +11,7 @@ export const HardSkillsStyle = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 6rem;
-  margin-right: 12rem;
+  margin-right: 12rem; /* Apenas para telas grandes */
 
   div {
     display: flex;
@@ -24,7 +24,7 @@ export const HardSkillsStyle = styled.div`
 
     h2 {
       font-size: 35px;
-      color: ${({ theme }) => theme.textColor}; // Usa a cor definida no tema
+      color: ${({ theme }) => theme.textColor};
       font-family: co-headline, sans-serif;
       font-weight: 400;
       font-style: normal;
@@ -69,32 +69,47 @@ export const HardSkillsStyle = styled.div`
     margin-bottom: 3.5rem;
   }
 
-  @media only screen and (max-width: 647px) {
+  /* Para telas até 1024px (tablets em landscape), reduzimos a margem lateral */
+  @media only screen and (max-width: 1550px) {
+    margin-right: 3rem;
     div {
       h2 {
-        font-size: 30px;
+        font-size: 32px;
       }
-
       h4 {
-        font-size: 20px;
-      }
-
-      p {
-        font-size: 3rem;
+        font-size: 26px;
       }
     }
   }
 
+  @media only screen and (max-width: 1360px) {
+    margin-right: 0;
+  }
+
+  /* Para telas até 768px (tablets em portrait) e menores, removemos o margin-right */
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 2rem auto; /* Margem centralizada */
+    div {
+      margin: 1rem auto;
+      h2 {
+        font-size: 28px;
+      }
+      h4 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  /* Para telas até 523px (celulares) */
   @media only screen and (max-width: 523px) {
     div {
       h2 {
         font-size: 20px;
       }
-
       h4 {
         font-size: 15px;
       }
-
       p {
         font-size: 2.5rem;
       }
