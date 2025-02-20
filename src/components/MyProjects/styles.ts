@@ -7,12 +7,11 @@ export const ProjectsSection = styled.section`
   justify-content: center;
   padding-bottom: 4.5rem;
   max-width: 140rem;
-
-  background: var(--background-7);
+  background: ${({ theme }) => theme.primaryColor};
 
   h2 {
     font-size: 35px;
-    font-family: co-headline,sans-serif;
+    font-family: co-headline, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -27,34 +26,33 @@ export const ProjectsSection = styled.section`
     background: rgb(58, 110, 221);
     padding: 10px 20px;
     border-radius: 30px;
-    box-shadow: 0px 0px 25px rgb(58, 110, 221);
-    transition-property: box-shadow transform;
-    transition-duration: 0.5s;
-
+    box-shadow: ${({ theme }) => theme.boxShadow};
+    transition: box-shadow 0.5s, transform 0.5s;
+    
     &::before {
       content: "";
       position: absolute;
       inset: 0;
       border-radius: inherit;
       pointer-events: none;
-      border: 0px solid rgb(0, 174, 255);
-      transition: border-width 1s ease-in-out;
+      border: 0px solid ${({ theme }) => theme.accentColor};
+      transition: border-width 0.5s ease-in-out;
     }
 
     &:hover {
       border-radius: 25px;
-      box-shadow: 0px 0px 40px rgb(97, 147, 255);
+      box-shadow: 0px 0px 40px ${({ theme }) => theme.accentColor};
       transform: translate(0, -5px) scale(1.02);
     }
 
     &:hover::before {
-      border-width: 2px;
+      border-width: 4px;
     }
 
     h3 {
       margin-bottom: 10px;
       color: white;
-      font-family: decoy,serif;
+      font-family: decoy, serif;
       font-weight: 300;
       font-style: normal;
     }
@@ -71,12 +69,13 @@ export const ProjectsSection = styled.section`
       border-radius: 10px;
       margin-top: 10px;
       background: rgb(64, 65, 66);
-      border-bottom: 2px solid rgb(0, 174, 255);
+      border-bottom: 2px solid ${({ theme }) => theme.accentColor};
       color: rgb(129, 215, 255);
-      font-family: eurostile,sans-serif;
+      font-family: eurostile, sans-serif;
       font-weight: 500;
       font-style: italic;
       font-size: 25px;
+      transition: color 0.3s;
 
       &:hover {
         color: white;
@@ -90,7 +89,7 @@ export const ProjectsSection = styled.section`
       border: none;
       background: #00ffc8;
       margin-top: 10px;
-      font-family: eurostile,sans-serif;
+      font-family: eurostile, sans-serif;
       font-weight: 500;
       font-style: italic;
       font-size: 25px;
@@ -149,18 +148,17 @@ export const ProjectsSection = styled.section`
     }
   }
 `
+
 export const ProjectsSubtitle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
   color: white;
-
-  background: var(--background-7);
+  background: ${({ theme }) => theme.primaryColor};
 
   h2 {
     font-size: 3rem;
-    font-family: co-headline,sans-serif;
+    font-family: co-headline, sans-serif;
     font-weight: 400;
     font-style: normal;
   }

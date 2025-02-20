@@ -8,7 +8,7 @@ export const LinksSection = styled.section`
     margin-bottom: 10px;
     font-size: 35px;
     color: white;
-    font-family: co-headline,sans-serif;
+    font-family: co-headline, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -18,21 +18,23 @@ export const LinksSection = styled.section`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    background: rgb(255, 255, 255);
+    padding: 15px; /* consolidado */
+    background: ${({ theme }) => theme.linksBackground};
     border-radius: 30px;
-    padding: 15px;
-    border: 7px solid rgb(255, 0, 76);
-    box-shadow: 0px 0px 25px rgb(255, 0, 76);
+    border: ${({ theme }) => theme.linksBorder};
+    box-shadow: ${({ theme }) => theme.linksBoxShadow};
 
     li {
       list-style: none;
 
       img {
-      margin: 10px;
-      border-radius: 15px;
-      padding: 5px;
-      width: 5rem;
+        margin: 10px;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5rem;
+        /* Aplica filtro para exibir em preto e branco no dark mode */
+        filter: ${({ theme }) =>
+          theme.background === '#1A1A1A' ? 'grayscale(100%)' : 'none'};
       }
     }
 
@@ -41,11 +43,11 @@ export const LinksSection = styled.section`
         transition: box-shadow 0.3s;
 
         &:hover {
-          box-shadow: 0px 0px 25px rgb(0, 76, 255);
+          box-shadow: 0px 0px 25px rgb(0,76,255);
         }
 
         &:active {
-          border: 4px solid rgb(0, 76, 255);
+          border: 4px solid rgb(0,76,255);
           padding: 2px;
         }
       }
@@ -71,11 +73,11 @@ export const LinksSection = styled.section`
         transition: box-shadow 0.3s;
 
         &:hover {
-          box-shadow: 0px 0px 25px rgb(255, 0, 0);
+          box-shadow: 0px 0px 25px rgb(255,0,0);
         }
 
         &:active {
-          border: 4px solid rgb(255, 60, 0);
+          border: 4px solid rgb(255,60,0);
           padding: 2px;
         }
       }
@@ -86,11 +88,11 @@ export const LinksSection = styled.section`
         transition: box-shadow 0.3s;
 
         &:hover {
-          box-shadow: 0px 0px 25px rgb(0, 255, 0);
+          box-shadow: 0px 0px 25px rgb(0,255,0);
         }
 
         &:active {
-          border: 4px solid rgb(0, 255, 0);
+          border: 4px solid rgb(0,255,0);
           padding: 2px;
         }
       }
@@ -103,11 +105,11 @@ export const LinksSection = styled.section`
         padding: 15px;
 
         &:hover {
-          box-shadow: 0px 0px 25px rgb(0, 110, 255);
+          box-shadow: 0px 0px 25px rgb(0,110,255);
         }
 
         &:active {
-          border: 4px solid rgb(0, 110, 255);
+          border: 4px solid rgb(0,110,255);
           padding: 15px;
         }
       }
@@ -118,15 +120,14 @@ export const LinksSection = styled.section`
         transition: box-shadow 0.3s;
 
         &:hover {
-          box-shadow: 0px 0px 25px rgb(0, 119, 255);
+          box-shadow: 0px 0px 25px rgb(0,119,255);
         }
 
         &:active {
-          border: 4px solid rgb(0, 204, 255);
+          border: 4px solid rgb(0,204,255);
           padding: 2px;
         }
       }
     }
-
   }
-`
+`;
