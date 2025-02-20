@@ -18,7 +18,7 @@ export const LinksSection = styled.section`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px; /* consolidado */
+    padding: 15px;
     background: ${({ theme }) => theme.linksBackground};
     border-radius: 30px;
     border: ${({ theme }) => theme.linksBorder};
@@ -32,7 +32,6 @@ export const LinksSection = styled.section`
         border-radius: 15px;
         padding: 5px;
         width: 5rem;
-        /* Aplica filtro para exibir em preto e branco no dark mode */
         filter: ${({ theme }) =>
           theme.background === '#1A1A1A' ? 'grayscale(100%)' : 'none'};
       }

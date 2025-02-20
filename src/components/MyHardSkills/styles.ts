@@ -24,7 +24,7 @@ export const HardSkillsStyle = styled.div`
 
     h2 {
       font-size: 35px;
-      color: ${({ theme }) => theme.textColor}; // Usa a cor definida no tema
+      color: ${({ theme }) => theme.textColor};
       font-family: co-headline, sans-serif;
       font-weight: 400;
       font-style: normal;
@@ -69,18 +69,32 @@ export const HardSkillsStyle = styled.div`
     margin-bottom: 3.5rem;
   }
 
-  @media only screen and (max-width: 647px) {
+  @media only screen and (max-width: 1550px) {
+    margin-right: 3rem;
     div {
       h2 {
-        font-size: 30px;
+        font-size: 32px;
       }
-
       h4 {
-        font-size: 20px;
+        font-size: 26px;
       }
+    }
+  }
 
-      p {
-        font-size: 3rem;
+  @media only screen and (max-width: 1360px) {
+    margin-right: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 2rem auto;
+    div {
+      margin: 1rem auto;
+      h2 {
+        font-size: 28px;
+      }
+      h4 {
+        font-size: 24px;
       }
     }
   }
@@ -90,11 +104,9 @@ export const HardSkillsStyle = styled.div`
       h2 {
         font-size: 20px;
       }
-
       h4 {
         font-size: 15px;
       }
-
       p {
         font-size: 2.5rem;
       }
