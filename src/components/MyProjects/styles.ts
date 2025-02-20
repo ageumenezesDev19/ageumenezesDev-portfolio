@@ -18,22 +18,37 @@ export const ProjectsSection = styled.section`
   }
 
   div {
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
     background: rgb(58, 110, 221);
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     border-radius: 30px;
-    border: 2px solid rgb(0, 174, 255);
     box-shadow: 0px 0px 25px rgb(58, 110, 221);
-    transition-property: box-shadow transform border;
+    transition-property: box-shadow transform;
     transition-duration: 0.5s;
 
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      border: 0px solid rgb(0, 174, 255);
+      transition: border-width 1s ease-in-out;
+    }
+
     &:hover {
+      border-radius: 25px;
       box-shadow: 0px 0px 40px rgb(97, 147, 255);
-      transform: translate(0, -5px);
-      border: 4px solid rgb(48, 190, 255);
+      transform: translate(0, -5px) scale(1.02);
+    }
+
+    &:hover::before {
+      border-width: 2px;
     }
 
     h3 {
